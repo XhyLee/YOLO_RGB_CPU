@@ -1,0 +1,44 @@
+{
+  "names": [
+    "fire",
+    "smoke"
+  ],
+  "split_counts": {
+    "train": {
+      "images": 841,
+      "labels": 841
+    },
+    "val": {
+      "images": 191,
+      "labels": 191
+    },
+    "test": {
+      "images": 248,
+      "labels": 248
+    }
+  },
+  "boxes_per_split": {
+    "train": {
+      "0": 1629,
+      "1": 2849
+    },
+    "val": {
+      "1": 666,
+      "0": 255
+    },
+    "test": {
+      "0": 609,
+      "1": 888
+    }
+  },
+  "cleaning_actions": {
+    "clipped_to_image": 158,
+    "removed_zero_size": 4
+  },
+  "empty_labels": {
+    "train": 1
+  },
+  "original_images": 1280,
+  "original_boxes": 6900,
+  "retained_boxes": 6896
+}

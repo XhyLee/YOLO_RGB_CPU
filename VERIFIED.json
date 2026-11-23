@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "modality": "RGB only",
+  "copied_image_label_pairs": 1280,
+  "image_and_label_hashes_match_prepared_source": true,
+  "script_syntax_and_help_checked": [
+    "train.py",
+    "evaluate.py",
+    "export_onnx.py",
+    "deploy/infer_onnx.py"
+  ],
+  "dependencies_installed": false,
+  "training_started": false,
+  "export_executed": false,
+  "board_tested": false,
+  "default_pretrained_model": "yolo11s.pt",
+  "deployment_demo_image_source": "C:\\Users\\12541\\Desktop\\YOLO_RGB_CPU\\data\\images\\val\\6_frame_0000.jpg",
+  "inference_implemented": "ONNX CPU image and USB camera; hardware not tested",
+  "inference_functional_checks": "passed: synthetic RGB letterbox, coordinate restoration, class-aware NMS, empty outputs, clipping, odd geometry",
+  "cpu_thread_callback_check": "passed: requested 16 threads restored after simulated Ultralytics reset at train and validation callbacks"
+}

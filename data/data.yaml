@@ -1,0 +1,7 @@
+path: C:/Users/12541/Desktop/YOLO_RGB_CPU/data
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: fire
+  1: smoke
